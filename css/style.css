@@ -4,6 +4,17 @@ body {
   background-color: #f5f7fa;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
 .main-container {
   display: flex;
   flex-direction: row-reverse;
@@ -107,7 +118,6 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin: 0 0 10px 0;
 }
 .my-work-experience-period {
   font-style: normal;
@@ -132,6 +142,11 @@ body {
 }
 .my-work-experience-company-block {
   margin: 0 15px 0 0;
+}
+.my-work-experience-position__wrapper {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
 }
 /* saidbar section */
 .saidbar-section__name {
@@ -178,6 +193,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  margin-left: 5px;
 }
 /* tech skill section */
 
@@ -209,8 +225,22 @@ body {
 /*my education section */
 .my-education-profession {
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+}
+.my-work-experience-company {
+  margin-bottom: 10px;
+}
+
+svg {
+  width: 15px;
+  height: 15px;
+}
+.saidbar-title__info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 8px;
 }
