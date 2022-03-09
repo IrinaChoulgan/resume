@@ -113,6 +113,10 @@ p {
   color: #000000;
 }
 /* me work experience */
+
+.wrapper {
+  display: flex;
+}
 .my-work-experience-position {
   font-style: normal;
   font-weight: bold;
